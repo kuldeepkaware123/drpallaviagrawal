@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300, 400, 500, 700, 900");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300, 400, 500, 700, 900");
 @import url("https: //fonts.googleapis.com/css?family=Ubuntu:400, 500, 700");
 body {
   color: #777;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 400;
 }
@@ -239,8 +239,14 @@ textarea:focus {
   position: relative;
   white-space: nowrap;
 }
+
 .nav-menu li a {
-  /* color: #fff; */
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+}
+.header-scrolled .nav-menu li a {
+  color: #000;
 }
 .nav-menu > li {
   float: left;
@@ -555,7 +561,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 @media (max-width: 575.98px) {
   .banner-area {
-    padding: 200px 0;
+    padding: 100px 0 0;
   }
 }
 .single-feature {
@@ -892,12 +898,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .hotline-area span {
-    font-size: 45px;
+    font-size: 30px;
   }
 }
 @media (max-width: 575.98px) {
   .hotline-area span {
-    font-size: 45px;
+    font-size: 30px;
   }
 }
 .news-area .news-date {
@@ -976,13 +982,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 .footer-area img {
-  width: 55px;
-  height: 55px;
-  margin-right: 5px;
+  /* width: 200px; */
+  /* height: 55px; */
+  /* margin-right: 5px; */
   margin-bottom: 10px;
 }
 .footer-copyright {
   margin-top: 70px;
+  text-align: center;
 }
 .footer-copyright .color {
   color: #244cfd;
@@ -1002,11 +1009,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 30px;
   }
 }
-.footer-copyright ul li {
+.social-icons ul li {
   display: inline;
-  margin-left: 10px;
 }
-.footer-copyright ul li i {
+.social-icons ul li i {
   display: inline-block;
   padding: 10px;
   color: #777;
@@ -1020,12 +1026,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.footer-copyright ul li i:hover {
+.social-icons ul li i:hover {
   color: #fff;
   background: linear-gradient(to right, #244cfd, #15e4fd);
 }
 .banner-area.other-page {
   padding: 220px 0 170px;
+}
+.banner-area.other-page h1 {
+  color: #fff;
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .banner-area.other-page {
@@ -1038,7 +1047,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 .banner-area.other-page a {
-  color: #777;
+  color: #f8f9f1;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -1142,6 +1151,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .blog_details {
   padding-top: 20px;
+  text-align: justify;
 }
 .blog_details h4 {
   font-size: 24px;
@@ -2935,7 +2945,7 @@ h6 {
   width: 100%;
 }
 .section-padding {
-  padding: 130px 0;
+  padding: 80px 0;
 }
 .section-padding2 {
   padding-top: 130px;
