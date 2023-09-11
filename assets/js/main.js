@@ -1,23 +1,5 @@
 
-// Function to load header and footer
-function loadHeaderAndFooter() {
-    // Load header
-    fetch('header.html')
-        .then(response => response.text())
-        .then(headerHTML => {
-            document.querySelector('header').innerHTML = headerHTML;
-        });
 
-    // Load footer
-    fetch('footer.html')
-        .then(response => response.text())
-        .then(footerHTML => {
-            document.querySelector('footer').innerHTML = footerHTML;
-        });
-}
-
-// Call the function to load header and footer
-loadHeaderAndFooter();
 
 
 
